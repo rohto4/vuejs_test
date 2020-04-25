@@ -1,0 +1,88 @@
+事前環境
+os : windows10 pro
+Node.js: 12.16.2
+npm : 6.14.4
+chocolatey : 0.10.15
+
+
+
+実施後に追加されるもの
+yarn : version 1.22.4
+Vue.js：v2.6.11
+@vue/cli : 4.3.1
+
+
+
+--------------------
+◆https://classic.yarnpkg.com/ja/docs/install/#windows-stable
+インストーラをダウンロードする
+
+インストールの完了を確認
+yarn -v 
+
+
+◆
+npm install -g @vue/cli
+ => いっぱいnpm WARNが表示されたが、一応完了した
+
+◆
+vue create vuejs_test
+ =>?  Your connection to the default yarn registry seems to be slow.
+   yes 
+ =>? Please pick a preset: default (babel, eslint)
+   npm
+ => error
+
+※プロンプトを管理者権限に変更して再実施
+ => success
+
+◆プログラムにimportするライブラリを、資料に従いインストール。
+（スクリプト実行時にinstallが正常か確認可能）
+https://popper.js.org/
+ > npm i @popperjs/core
+https://portal-vue.linusb.org/guide/getting-started.html
+ > npm install --save portal-vue
+
+◆jQueryは必要ない。（javascriptの記述を簡略化するためのライブラリ）
+
+
+（bootstrap v4.4、vueそれぞれの入門ガイドが案内されている。）
+
+
+
+
+◆
+npm install bootstrap-vue
+
+
+main.html
+--
+
+
+--
+
+main.js
+--
+
+--
+
+About.vue
+--
+
+--
+*1 Webpack、Parcel、rollup.jsを含む場合、以下の実施を推奨
+[Using module bundlers]
+
+*2 "$attr and $listeners is readonly", or "Multiple instances of Vue detected"などとerrorが発生する場合、
+[Aliasing Vue import]以下を試す
+
+*3よくわからない
+[Component groups and directives as Vue plugins]
+
+*4 コンポーネント毎にディレクティブを厳密にする場合、以下を実施
+[Individual components and directives]
+
+以下2項有り
+
+
+◆Nuxt.js moduleの導入

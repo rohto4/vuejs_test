@@ -1,0 +1,44 @@
+Vue CLI v4.3.1
+? Please pick a preset: default (babel, eslint)
+
+
+Vue CLI v4.3.1
+✨  Creating project in C:\work\IDE\Git\20_work\git_local\vuejs_test\vuejs_test.
+⚙️  Installing CLI plugins. This might take a while...
+
+
+> yorkie@2.0.0 install C:\work\IDE\Git\20_work\git_local\vuejs_test\vuejs_test\node_modules\yorkie
+> node bin/install.js
+
+setting up Git hooks
+can't find .git directory, skipping Git hooks installation
+
+> core-js@3.6.5 postinstall C:\work\IDE\Git\20_work\git_local\vuejs_test\vuejs_test\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall C:\work\IDE\Git\20_work\git_local\vuejs_test\vuejs_test\node_modules\ejs
+> node ./postinstall.js
+
+added 1192 packages from 846 contributors in 60.169s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+�  Invoking generators...
+�  Installing additional dependencies...
+
+added 54 packages from 39 contributors in 22.196s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+⚓  Running completion hooks...
+
+�  Generating README.md...
+
+�  Successfully created project vuejs_test.
+�  Get started with the following commands:
+
+ $ cd vuejs_test
+ $ npm run serve
